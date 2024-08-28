@@ -1,0 +1,201 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-image: url(https://i.im.ge/2024/08/24/f6FnbW.Video-de-vinheta-de-introducao-simples-branco-e-preto-espaco-sideral-1.gif);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #555;
+    position: relative;
+}
+
+.site-title {
+    font-size: 270%;
+    background: linear-gradient(45deg,rgb(88, 174, 214),rgb(84, 153, 194),rgb(6, 216, 69),rgb(13, 216, 30),red);
+    -webkit-background-clip: text;
+     color: transparent;
+     font-weight: 900;
+     padding-left: 20%;
+    }
+
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.whatsapp-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.whatsapp-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.whatsapp-link:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 35%; /* Ajusta a largura dos produtos para duas colunas */
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.product button {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.product button:hover {
+    background-color: #218838;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+#product-details {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#product-details button {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+#product-details button:hover {
+    background-color: #c82333;
+}
+
+footer {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+#cate{
+    height: 20%;
+}
+
+#cate-nome{
+font-size: 100%;
+border-style: groove;
+border-radius: 10px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bolder;
+border-color: black;
+background: linear-gradient(45deg,rgb(33, 12, 216),rgb(38, 202, 214));
+}
+
+#fone-cat
+{
+   padding-left: 2%;
+   color:black;
+}
+
+#cabo-cat{
+padding-left: 9%;
+color: black;
+}
+
+#carregador-cat{
+padding-left: 2%;
+color: black;
+}
+
+#som-cat{
+padding-right: 30%;
+padding-left: 2%;
+color: black;
+}
+
+#cate-nome1{
+    color:black;
+    padding-left:10%;
+}
+
+#PRO{
+    padding-left: 23%;
+    background: linear-gradient(45deg,rgb(7, 15, 19),rgb(15, 21, 24),rgb(6, 216, 69),rgb(13, 216, 30),red);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 800;
+
+}
+
+
+.valora{
+    text-decoration: line-through;
+}
+
+.valord{
+    background-color: green;
+    border-radius: 20px;
+    font-weight: 750;
+}
